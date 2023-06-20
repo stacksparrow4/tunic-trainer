@@ -1,4 +1,4 @@
-const cacheName = "tunic-trainer-v1";
+const cacheName = "tunic-trainer-v2";
 const contentToCache = [
   "/tunic-trainer/",
   "/tunic-trainer/index.html",

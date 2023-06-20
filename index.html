@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tunic Trainer</title>
+
+    <link rel="manifest" href="manifest.json" />
+
+    <style>
+        canvas {
+            user-select: none;
+            outline: none;
+            width: 100%;
+        }
+
+        input {
+            width: 10vh;
+        }
+
+        body {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+        }
+
+        div {
+            margin: auto;
+        }
+
+        * {
+            font-size: 3vh;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Click symbol to reveal</p>
+
+        <canvas id="c" width="167" height="133"></canvas>
+
+        <br>
+
+        <p>
+            Show <input type="number" id="vowelamnt" min="1"> out of <span id="totalvowel"></span> vowels
+        </p>
+
+        <p>
+            Show <input type="number" id="constamnt" min="1"> out of <span id="totalconst"></span> constonants
+        </p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

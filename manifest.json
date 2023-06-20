@@ -1,0 +1,12 @@
+{
+  "name": "Tunic Trainer",
+  "icons": [
+    {
+      "src": "icons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "fullscreen"
+}

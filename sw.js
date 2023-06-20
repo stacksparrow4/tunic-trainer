@@ -1,10 +1,10 @@
 const cacheName = "tunic-trainer-v1";
 const contentToCache = [
-  "/",
-  "/index.html",
-  "/main.js",
-  "/symbols.png",
-  "/icons/512.png",
+  "/tunic-trainer/",
+  "/tunic-trainer/index.html",
+  "/tunic-trainer/main.js",
+  "/tunic-trainer/symbols.png",
+  "/tunic-trainer/icons/512.png",
 ];
 
 self.addEventListener("install", (e) => {
